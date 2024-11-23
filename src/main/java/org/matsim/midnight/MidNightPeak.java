@@ -4,9 +4,6 @@ import org.matsim.api.core.v01.events.ActivityEndEvent;
 import org.matsim.api.core.v01.events.handler.ActivityEndEventHandler;
 
 
-
-
-
 public class MidNightPeak implements ActivityEndEventHandler {
 
     @Override

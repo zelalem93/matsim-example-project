@@ -4,8 +4,8 @@ package org.matsim.midnight;
 import org.matsim.core.events.EventsUtils;
 
 
-
 public class CheckMidnightPeak {
+
     public static void main(String[] args) {
 
         var handler = new MidNightPeak();

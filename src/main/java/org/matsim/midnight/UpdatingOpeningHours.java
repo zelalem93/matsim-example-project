@@ -16,7 +16,9 @@ public class UpdatingOpeningHours {
             for (ActivityOption activityOption : facility.getActivityOptions().values()){
                 for (OpeningTime openingTime : activityOption.getOpeningTimes()){
                     if(openingTime.getStartTime()==0.0 && openingTime.getEndTime()== 24*3600){
+
                         System.out.println("Adjusting opening hours for facility: " + facility.getId() + ", Activity " + activityOption.getType());
+
                         openingTime.setEndTime(totalSimulationPeriod);
                     }
                 }
