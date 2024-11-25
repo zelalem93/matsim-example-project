@@ -5,8 +5,10 @@ import org.matsim.facilities.ActivityFacility;
 import org.matsim.facilities.ActivityOption;
 import org.matsim.facilities.OpeningTime;
 
+
 public class UpdatingOpeningHours {
 
+    // tried to update the opening hours of facilities by simulation period.
     public static void updateFacilityOpeningHours(Scenario scenario){
         double totalSimulationPeriod = scenario.getConfig().qsim().getEndTime().seconds();
 
