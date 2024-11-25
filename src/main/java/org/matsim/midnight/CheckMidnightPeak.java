@@ -6,6 +6,8 @@ import org.matsim.core.events.EventsUtils;
 
 public class CheckMidnightPeak {
 
+  // simple event handler
+
     public static void main(String[] args) {
 
         var handler = new MidNightPeak();
