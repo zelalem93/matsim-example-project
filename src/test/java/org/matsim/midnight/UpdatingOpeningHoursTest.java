@@ -20,7 +20,7 @@ import org.matsim.facilities.ActivityOption;
 import org.matsim.facilities.OpeningTimeImpl;
 import org.matsim.testcases.MatsimTestUtils;
 
-import static org.ejml.EjmlUnitTests.assertEquals;
+
 
 class UpdatingOpeningHoursTest {
 
